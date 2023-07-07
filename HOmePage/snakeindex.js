@@ -118,6 +118,22 @@ function changeDirection(event){
             xVelocity = 0;
             yVelocity = unitSize;
             break;
+            case(keyPressed == a && !goingRight):
+            xVelocity = -unitSize;
+            yVelocity = 0;
+            break;
+        case(keyPressed == w && !goingDown):
+            xVelocity = 0;
+            yVelocity = -unitSize;
+            break;
+        case(keyPressed == d && !goingLeft):
+            xVelocity = unitSize;
+            yVelocity = 0;
+            break;
+        case(keyPressed == s && !goingUp):
+            xVelocity = 0;
+            yVelocity = unitSize;
+            break;
     }
 };
 function checkGameOver(){
