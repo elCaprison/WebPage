@@ -1,0 +1,46 @@
+#gameBoard {
+    font-family: "Brush Script MT", cursive;
+    border: 3px solid;
+    background-color:aliceblue;
+}
+
+#gameContainer {
+    text-align: center;
+    font-family: "Brush Script MT", cursive;
+    font-size: 27px;
+
+}
+#myresetBtn:hover{
+    font-family: "Brush Script MT", cursive;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    color: rgb(227, 225, 221);
+    background-color: rgb(238, 106, 12);
+}
+#score {
+    font-size: 60px;
+}
+
+#gameKeybind {
+    background-color: rgb(109, 176, 109);
+    border-radius: 1px;
+    border: 2px solid white;
+}
+
+#myresetBtn {
+    font-family: "Brush Script MT", cursive;
+    height: 37px;
+    font-size: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    color: burlywood;
+    background-color: chocolate;
+}
+
+body {
+    background-color: green;
+}
