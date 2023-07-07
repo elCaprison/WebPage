@@ -1,0 +1,42 @@
+.Timer-btn{
+    position: relative;
+    top: 25px;
+    width: 50px;
+    height: 30px;
+    border: 10px, solid;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: #27612f;
+    border: 2px solid wheat;
+
+}
+
+#timer{
+    border: 2px solid;
+    left: 25px;
+    position: relative;
+    top: 12px;
+    border-radius: 12px;
+    width: 250px;
+    height: 70px;
+    color: #27612f;
+    background-color: rgba(43, 210, 21, 0.739);
+    font-size: 60px;
+    border: none;
+}
+
+#timerContainer{
+    position: relative;
+    top: 100px;
+    left: 450px;
+    border-radius: 12px;
+    text-align: center;
+    width: 300px;
+    height: 160px;
+    background-color: #0e2e13;
+}
+
+body{
+    background-color: #061508;
+}
