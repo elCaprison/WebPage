@@ -24,6 +24,12 @@
     font-size: 60px;
 }
 
+#gameKeybind {
+    background-color: rgb(109, 176, 109);
+    border-radius: 1px;
+    border: 2px solid white;
+}
+
 #myresetBtn {
     font-family: "Brush Script MT", cursive;
     height: 37px;
